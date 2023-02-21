@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.projects{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding: 100px 0;
+}
+
+.projects h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project-content{
+    width: 70%;
+    margin: 20px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.project{
+    border: 1px solid rgb(180, 179, 179);
+    height: 180px;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.project-text{
+    background-color: rgb(200, 200, 200);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.project-text p{
+    font-size: 30px;
+    color: grey;
+    font-weight: 700;
+}
